@@ -69,10 +69,7 @@ install -m 755 -D src/xmms/.libs/libnosefart.so %{buildroot}%{_libdir}/xmms/Inpu
 %if %{build_gnosefart}
 cd src/gnosefart-*
 %makeinstall_std
-mkdir -p %{buildroot}{%{_menudir},%{_liconsdir},%{_iconsdir},%{_miconsdir}}
-cat > %{buildroot}%{_menudir}/gnosefart <<EOF 
-?package(gnosefart):command="%{_bindir}/gnosefart" title="Gnosefart" longtitle="Nosefart - NSF Music Player" needs="X11" section="Multimedia/Sound" icon="gnosefart.png" mimetypes="audio/x-nsf" startup_notify="true" xdg="true"
-EOF
+mkdir -p %{buildroot}{%{_liconsdir},%{_iconsdir},%{_miconsdir}}
 
 #icons
 ln -s %{_datadir}/pixmaps/gnosefart.png %{buildroot}/%{_liconsdir}/gnosefart.png
@@ -110,7 +107,6 @@ rm -rf %{buildroot}
 %{_bindir}/gnosefart
 %{_datadir}/applications/gnosefart.desktop
 %{_datadir}/pixmaps/gnosefart.png
-%{_menudir}/gnosefart
 %{_liconsdir}/gnosefart.png
 %{_iconsdir}/gnosefart.png
 %{_miconsdir}/gnosefart.png
