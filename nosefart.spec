@@ -9,6 +9,7 @@ Group: Sound
 URL: http://nosefart.sourceforge.net/
 Source0: http://prdownloads.sourceforge.net/nosefart/%name-%version-mls.tar.bz2
 Patch: nosefart-2.6-mls-desktopentry.patch
+Patch1: nosefart-2.7-makefile.patch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: xmms-devel
 #BuildRequires: automake1.4
@@ -43,6 +44,7 @@ Entertainment System.
 %setup -q -n %{name}-%{version}-mls
 ln -s gnosefart-1.5 src/gnosefart-1.4
 %patch -p1
+%patch1 -p1
 #cd src/gnosefart*
 #ln -sf %{_datadir}/automake-1.4/install-sh .
 #ln -sf %{_datadir}/automake-1.4/mkinstalldirs .
