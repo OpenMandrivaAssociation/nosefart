@@ -1,0 +1,15 @@
+--- nosefart-2.6-mls/src/gnosefart-1.4/gnosefart.desktop~	2004-04-23 18:18:58.000000000 -0400
++++ nosefart-2.6-mls/src/gnosefart-1.4/gnosefart.desktop	2008-01-23 07:34:01.995956233 -0500
+@@ -2,10 +2,10 @@
+ Name=Nosefart
+ GenericName=NSF Music Player
+ Comment=Nosefart - NSF Music Player 
+-Icon=gnosefart.png
++Icon=gnosefart
+ Exec=/usr/bin/gnosefart %f
+ Terminal=false
+ Type=Application
+ X-Desktop-File-Install-Version=0.3
+-Categories=Application;AudioVideo;X-Red-Hat-Extra;
++Categories=GTK;AudioVideo;
+ 
