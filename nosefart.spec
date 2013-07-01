@@ -1,5 +1,5 @@
 Name:		nosefart
-Summary:	Nosefart player for Nintendo NES audio files
+Summary:	Player for Nintendo NES audio files
 Version:	2.7
 Release:	3
 License:	GPLv2
@@ -18,7 +18,7 @@ Nosefart plays .nsf audio files that were ripped from games for the Nintendo
 Entertainment System.
 
 %package -n gnosefart
-Summary:	Nosefart player for Nintendo NES audio files
+Summary:	Player for Nintendo NES audio files
 Group:		Sound
 Requires:	%{name} >= %{version}
 
