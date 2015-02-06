@@ -1,7 +1,7 @@
 Summary:	Nosefart player for Nintendo NES audio files
 Name:		nosefart
 Version:	2.9
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Sound
 Url:		http://nosefart.sourceforge.net/
