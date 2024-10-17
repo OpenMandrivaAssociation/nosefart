@@ -4,7 +4,7 @@ Version:	2.9
 Release:	2
 License:	GPLv2+
 Group:		Sound
-Url:		http://nosefart.sourceforge.net/
+Url:		https://nosefart.sourceforge.net/
 Source0:	http://prdownloads.sourceforge.net/nosefart/%{name}-%{version}-mls.tar.bz2
 Patch0:		nosefart-2.6-mls-desktopentry.patch
 BuildRequires:	imagemagick
